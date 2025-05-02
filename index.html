@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js" defer></script>
+    <title>Mortal Kombat</title>
+</head>
+
+<body>
+
+    <div class="wrap">
+        <div class="loading">Loading...</div>
+        <canvas id="canvas"></canvas>
+        <div class="status-wrap">
+            <div class="lifebar left">
+                <div class="player-name">sub-zero</div>
+                <div class="life" id="player1Life"></div>
+            </div>
+            <div class="lifebar right">
+                <div class="player-name">kano</div>
+                <div class="life" id="player2Life"></div>
+            </div>
+            <div id="boss-overlay"></div>
+        </div>
+    </div>
+</body>
+
+</html>
